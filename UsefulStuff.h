@@ -47,6 +47,7 @@ vector<string> stringUtils::split(string s, char splitee) {
 			tempStore = "";
 		}
 	}
+	vec.push_back(tempStore);
 	return vec;
 }
 
